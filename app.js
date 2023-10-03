@@ -57,23 +57,23 @@
 //     console.log(userinfos[i]);
 // }
 
-function askForGender() {
+// function askForGender() {
     
-    const name = prompt("Please enter your name:");
-    let gender ;
+//     const name = prompt("Please enter your name:");
+//     let gender ;
 
-while (gender !== "male" || gender !== "female") {
-  gender = prompt("Please enter a valid gender (male or female):").toLowerCase();
-if (gender == "male") {
-    alert(`Welcome, Mr. ${name}!`);
-    userinfos.push(gender);
+// while (gender !== "male" || gender !== "female") {
+//   gender = prompt("Please enter a valid gender (male or female):").toLowerCase();
+// if (gender == "male") {
+    // alert(`Welcome, Mr. ${name}!`);
+//     userinfos.push(gender);
 
-    break;
-} else if (gender == "female") {
-    alert(`Welcome, Ms. ${name}!`);
-    userinfos.push(gender);
-    break;
-}
-}
-}
-askForGender()
+//     break;
+// } else if (gender == "female") {
+//     alert(`Welcome, Ms. ${name}!`);
+//     userinfos.push(gender);
+//     break;
+// }
+// }
+// }
+// askForGender()
